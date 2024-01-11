@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon.clone</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADsUlEQVRYhbWWT2gcVRzHP8/sBsSkpkLUpdlQRAgptexuqrR6EcxqDipWacCLB4PJwUNpwEUwiAgt4sE/NHdLwIM1NFvw4CUU04JJs7HSRDYbD1VCNiRBiTtJDmnh62F3pjOZyc40ab/wmHlvfu/9vu/7+/3eG6hBUpOkjyXN6+HhlqRBSY/ihqQOSX8+RMdBRNoBjKQm4CbwLBFhWRYLCwtO3xhDIpEgkUhEXQJgFjiOpE+j0h7L59WdzSoWjzutwfXenc1qLJ+/HyXOoAjSVyoVdWezHmf1Wi6Xi0qgQBSr07293l3HYqFkIiqxFUogn88HOkhlMjrd2+sLid1eyWajEFAogQ/6+0MlzuVygSSi4JGwVDXG+MaGhoY8/b6+PgROux8YSaFz3GVnjCGTyfhs4o2Nnr6Au9vboQRiUVg2NzfT1dXl9JeXlymXy/w6OQnAxMRE1akUqNi+CdhOv7t4kR9HR5mbnfV8E2AIDlcooiTKWD6vtmQyMNHqlWMUhObAzMwMJ06edHZpPwEGz54l2d7Okc5OXuvp8akSJQdCFUil076ddWezWlpa8tjtVYG6BEqlUuDChULBY1cul30haXgQ50Bxft6R0y2tuyIAisWi825cz+Xl5dAI1CWwuLjoWdR+tyzLY/fDpUuB829MT4cSqBuC8fFx5/LZ7SgeGRnx2dhhSGcyqlQqdUNQl4A7tjtLL5VOqy2Z3LUM7fELw8N7JyD5r+LdWiqT8Y21JZMqlUr7I2D/jPh2WJO8oRYSy7KcW9FWKMx5JAI2iQvDww6RhlhMqUxG/QMDvpI8d/68+gcGZFmu2G8sSavT0soNadubE96T8I9v4bEkHH47PHujYKsMUx/Cav5eLR/7Bo6ccUy8ZXioB37rh6unYK2wfwKNB+DoJ/D6ErxTgaZO3w+Dl0BLB7xxG7b/hfHnq0T+ugx3NvZGYHUK5s7BT4dgswwbRWh90WNiJN0FGjyjdyy4+Rnc/gpUu4CS70PLMXjypSrReDO+OeslWJ+D1WuwcgW2/6meXCcuQ/wAzH0Or/7invWfkXQLeC5wB2sFmHwPNov3jsOdd6dxje38HXjqLUh/AY93wNp0lURLh9viupH0EfBlIAEbf4/B/Newfo2ge1ly+TbAM4Nw+F1oPV53WWDASGoEpoBUmDVbZVibgs1FWLlac2ggfrAanoNHofUFf3iCcR14ubYDPS3pSpQz4QHhe0lP2II5kHQKeBPoYre82Dt+B2aAUWPMz/bg/5AZ2OKL1i4FAAAAAElFTkSuQmCC" type="image/x-icon">
+    <link rel="stylesheet" href="amazon.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!--header area-->
+ <header> 
+ <div class="navbar">
+    <div class="nav-logo border">
+        <div class="logo">
+            <img src="images/amazon_logo.png" alt="">
+        </div>
+    </div>
+    <div class="nav-adress border">
+        <p class="add-first">Teslimat konumu: Hatay 31200</p>
+        <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">Konumu güncelle</p>
+        </div>
+    </div>
+    <div class="nav-search">
+        <select class="search-select">
+            <option>Tüm Kategoriler</option>
+            <option>Bahçe</option>
+            <option>Bebek</option>
+        </select>
+        <input class="search-input" type="text" placeholder="Ara Amazon.com.tr">
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div class="ust-menu">
+        <div class="nav-sign-in border">
+            <p><span>Merhaba, Giriş yapin</span></p>
+            <select class="nav-second">
+                <option>Hesap ve Listeler</option>
+            </select>
+        </div>
+        <div class="nav-sign-in border">
+            <p><span>İadeler</span></p>
+            <p class="nav-second">ve Siparişler</p>
+        </div>
+        <div class="nav-sepet border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="alisveris-sepeti">
+            <p><span>Alişveriş</span></p>
+            <p>Sepeti</p>
+            </div>
+        </div>
+    </div>
+       
+    
+ </div>
+ <div class="panel">
+    <div class="panel-all">
+        <div class="tumu border"> 
+            <i class="fa-solid fa-bars"></i>
+            <p>Tümü</p>
+    </div>
+       </div>
+    <div class="panel-ops">
+        <p class="border">Çok Satanlar</p>
+        <p class="border">Günün Fırsatları</p>
+        <p class="border">Prime</p>
+        <p class="border">Yeni Çıkanlar</p>
+        <p class="border">Hediye Fikirleri</p>
+        <p class="border">Elektronik</p>
+        <p class="border">Moda</p>
+        <p class="border">Kitap</p>
+        <p class="border">Bilgisayar</p>
+        <p class="border">Satış Yap</p>
+        
+        
+    </div>
+    <div class="panel-deals border">
+        <img src="https://m.media-amazon.com/images/G/41/TR-hq/2022/Design/FDFO/TR22_FDFO_SWM_400x39._CB612247468_.jpg" alt="">
+    </div>
+ </div>
+
+ </header>
+ <!--hero-area-->
+ <div class="hero-section">
+    <div class="hero-msg">
+        Amazon.com.tr'desiniz. . Ayrica hizli, uluslararasi teslimatla milyonlarca ürün
+        için Amazon global'den alişveriş yapabilirsiniz.
+        <a href="">Amazon.com'a gitmek için buraya tiklayin.</a>
+    </div>
+    
+ </div>
+ <!--shop-section-->
+ <div class="shop-section">
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box1_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box2_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box3_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box4_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box5_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box6_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box7_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>clothes</h2>
+            <div class="box-img" style="background-image: url('images/box8_image.jpg');"></div>
+            <p>see more</p>
+        </div>
+    </div>
+    
+ </div>
+ <!--container-->
+ <div class="container">
+    <div class="title">
+        <h2>Mutfak kategorisinde Gülümseten Kasim Firsatlari</h2>
+        <a href="">Daha fazla keşfet</a>
+      </div>
+      <div class="boxes">
+        <div class="box1">
+            <div class="image">
+                <img src="images/1.jpeg" alt="">
+            </div>
+            <div class="box1-content">
+                <p><span>23% oranina varan indirim</span>Gülümseten Kasim</p>
+            </div>
+            <div>coir fry</div>
+        </div>
+        <div class="box1">
+            <div class="image">
+                <img src="images/2.jpeg" alt="">
+            </div>
+            <div class="box1-content">
+                <p><span>23% oranina varan indirim</span>Gülümseten Kasim</p>
+            </div>
+            <div>coir fry</div>
+        </div>
+        <div class="box1">
+            <div class="image">
+                <img src="images/3.jpeg" alt="">
+            </div>
+            <div class="box1-content">
+                <p><span>23% oranina varan indirim</span>Gülümseten Kasim</p>
+            </div>
+            <div>coir fry</div>
+        </div>
+        <div class="box1">
+            <div class="image">
+                <img src="images/4.jpeg" alt="">
+            </div>
+            <div class="box1-content">
+                <p><span>23% oranina varan indirim</span>Gülümseten Kasim</p>
+            </div>
+            <div>coir fry</div>
+        </div>
+        <div class="box1">
+            <div class="image">
+                <img src="images/5.jpeg" alt="">
+            </div>
+            <div class="box1-content">
+                <p><span>23% oranina varan indirim</span>Gülümseten Kasim</p>
+            </div>
+            <div>coir fry</div>
+        </div>
+      </div>
+ </div>
+<!--foot area-->
+<footer>
+    <div class="foot-panel1">
+        <a href="amazon.html">Başa Dön</a>
+    </div>
+    <div class="foot-panel2">
+        <ul>
+            <p>Hakkımızda</p>
+            <a href="">Kariyer</a>
+            <a href="">İletişim</a>
+            <a href="">Bilgi Toplumu Hizmetleri</a>
+            <a href="">Amazon Science</a>
+          </ul>
+          <ul>
+            <p>Bizimle Para Kazanın</p>
+            <a href="">Markanızı Koruyun ve Oluşturun</a>
+            <a href="">Amazon'da Satış Yapın</a>
+            <a href="">Ürünlerinizin Reklamını Yapın</a>
+          </ul>
+          <ul>
+            <p>Amazon Ödeme Araçları</p>
+            <a href="">Kredi Kartı</a>
+            <a href="">Taksitli Ödeme</a>
+          </ul>
+          <ul>
+            <p>Size Yardımcı Olalım</p>
+            <a href="">COVID-19 ve Amazon</a>
+            <a href="">Kargoları Takip Edin veya Siparişleri Görüntüleyin</a>
+            <a href="">Teslimat Ücretleri ve Politikaları</a>
+            <a href="">İadeler</a>
+            <a href="">Geri Dönüşüm</a>
+            <a href="">Amazon Mobil Uygulaması</a>
+            <a href="">Müşteri Hizmetleri</a>
+            <a href="">Erişilebilirlik</a>
+          </ul>
+    </div>
+    <div class="foot-panel3">
+        <div class="logo" ><img src="images/amazon_logo.png" alt=""></div>
+        <ul>
+            <a href="">Avustralya</a>
+            <a href="">Brezilya</a>
+            <a href="">Kanada</a>
+            <a href="">Çin</a>
+            <a href="">Fransa</a>
+            <a href="">Almanya</a>
+            <a href="">Hindistan</a>
+            <a href="">İtalya</a>
+            <a href="">Japonya</a>
+            <a href="">Meksika</a>
+            <a href="">Hollanda</a>
+            <a href="">İspanya</a>
+            <a href="">Birleşik Arap Emirlikleri</a>
+            <a href="">Birleşik Krallık</a>
+            <a href="">ABD</a>
+            <a href="">Singapur</a>
+        </ul>
+    </div>
+    <div class="foot-panel4">
+        <div class="eksik-foot">
+            <div class="eksik1">
+                <p>Amazon Web Services</p>
+                <a href="">Ölçeklenebilir Bulut </a>
+                <a href="">Bilgi İşlem Hizmetleri</a>
+            </div>
+            <div class="eksik1">
+                <p>East Dane</p>
+                <a href="">Tasarımcı Erkek Moda Ürünleri</a>
+            </div>
+            <div class="eksik1">
+                <p>Shopbop</p>
+                <a href="">Tasarım Ürünler</a>
+                <a href="">Moda Markalar</a>
+            </div>
+        </div>
+        <div class="pages">
+          <a href=""> Kullanım ve Satış Koşulları</a>
+          <a href=""> Aydınlatma Bildirimi </a>
+          <a href=""> Çerezler Hakkında </a>
+          <a href=""> İlgi Alanına Dayalı Tanıtımlar</a>
+          <a href=""> İşlem Rehberi </a>
+        </div>
+        <div class="copyright">
+          © 1996-2023, Amazon.com, Inc. veya bağlı kuruluşları
+        </div>
+      </div>
+</footer>
+</body>
+</html>
+
+		
+		
